@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-auto px-24 ">
+    <header>
+        <nav>
+            <ul class="flex bg-teal-200 pl-5" >
+                <li class="flex-1">
+                    <a href="#">À Propos</a>
+                </li>
+                <li class="flex-1">
+                    <a href="#">Services</a>
+                </li>
+                <li class="flex-1">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pl-20 bg-orange-100">
+
+        <form>
+            <div>
+                <input type="radio">
+                <label for="option1">Monsieur</label><br>
+                <input type="radio">
+                <label for="option2">Madame</label><br>
+                <input type="radio">
+                <label for="option3">Mademoiselle</label><br>
+            </div>
+            <div class="py-5">
+                <!-- <label for="text"> Prenom</label> -->
+                <input type="text" name="prenom" class="w-plein border-1 focus:border-teal-200 ml-4" placeholder="lou">
+            </div>
+
+            <div class="py-5">
+                <label for="text">Nom</label>
+                <input type="text" name="nom" class="w-plein border-1 focus:border-teal-200 ml-4">
+            </div>
+
+            <div class="py-5">
+                <label for="text"> Adresse</label>
+                <input type="text" name="adresse" class="w-plein border-1 focus:border-teal-200 ml-4">
+            </div>
+
+            <div class="py-5">
+                <label for="text"> Mail</label>
+                <input type="email" name="mail" placeholder="saississez votre mail" class="w-plein border-1 focus:border-teal-200 ml-4">
+            </div>
+
+            <div class="py-5">
+                <label for="text"> Password</label>
+                <input type="password" name="password" class="w-plein border-1 focus:border-teal-600 ml-4">
+                <button type="submit" class="transition-none duration-500 transform px-6 py-2 m-4
+                bg-teal-400 hover:bg-indigo-400
+                 hover:border-yellow-500
+                hover:text-white
+                hover:opacity-50
+                hover:shadow-md
+                hover:scale-125"> Valider </button>
+            </div>
+            <div class="py-5">
+                <label for="text"> Choisissez votre passion</label>
+                <input type="checkbox">
+            </div>
+            
+        </form>
+
+    </section>
+
+    <footer class="flex bg-gray-300 pl-5 ">
+        <a href="#" class="flex-1"> Accueil</a>
+        <a href="#" class="flex-1"> Inscription</a>
+        <a href="#" class="flex-1"> Connexion</a>
+    </footer>
+
+</body>
+</html>

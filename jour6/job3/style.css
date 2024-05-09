@@ -1,0 +1,36 @@
+.grille{
+    height: 200px;
+}
+.grill{
+    display: flex;
+    justify-content: space-between;
+}
+.grilles{
+    height: 200px;
+    width: 30%;
+    background-color: rgb(83, 115, 219);
+    margin-top: 20px;
+}
+.grille1{
+    background-color: rgb(162, 115, 206);
+    height: 200px;
+    width: 65%;
+    margin-top: 20px;
+}
+.grille2{
+    background-color: rgb(162, 115, 206);
+    height: 200px;
+    width: 30%;
+    margin-top: 20px;
+}
+.grill1{
+    display: flex;
+    justify-content: space-between;
+}
+.grills{
+    /* height: 200px; */
+    /* width: 10%; */
+    padding: 10px;
+    background-color: rgb(231, 144, 68);
+    margin-top: 20px;
+}

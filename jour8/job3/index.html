@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-auto px-24 ">
+    <header>
+        <nav>
+            <ul class="flex bg-teal-200 pl-5" >
+                <li class="flex-1">
+                    <a href="#">À Propos</a>
+                </li>
+                <li class="flex-1">
+                    <a href="#">Services</a>
+                </li>
+                <li class="flex-1">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pl-20">
+
+        <form>
+            <div>
+                <input type="radio">
+                <label for="option1">Monsieur</label><br>
+                <input type="radio">
+                <label for="option2">Madame</label><br>
+                <input type="radio">
+                <label for="option3">Mademoiselle</label><br>
+            </div>
+            <div>
+                <label for="text"> Prenom</label>
+                <input type="text" name="prenom"> 
+            </div>
+
+            <div>
+                <label for="text">Nom</label>
+                <input type="text" name="nom">
+            </div>
+
+            <div>
+                <label for="text"> Adresse</label>
+                <input type="text" name="adresse">
+            </div>
+
+            <div>
+                <label for="text"> Mail</label>
+                <input type="email" name="mail" placeholder="saississez votre mail">
+            </div>
+
+            <div>
+                <label for="text"> Password</label>
+                <input type="password" name="password">
+                <button type="submit"> Valider </button>
+            </div>
+            <div>
+                <label for="text"> Choisissez votre passion</label>
+                <input type="checkbox">
+            </div>
+            
+        </form>
+
+    </section>
+
+    <footer class="flex bg-gray-300 pl-5 ">
+        <a href="#" class="flex-1"> Accueil</a>
+        <a href="#" class="flex-1"> Inscription</a>
+        <a href="#" class="flex-1"> Connexion</a>
+    </footer>
+
+</body>
+</html>

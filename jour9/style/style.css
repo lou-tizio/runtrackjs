@@ -1,0 +1,65 @@
+.pg-connexion{
+  padding: 20px;
+  margin-top: 10%;
+}
+.title{
+  text-align: center;
+  color: rgb(217, 144, 9);
+  font-size: 60px;
+}
+
+.btitle{
+    color: rgb(217, 144, 9);
+    font-size: 45px;
+}
+.imag{
+    justify-content: end;
+}
+#password{
+    height: 50px;
+}
+#email{
+    height: 50px;
+}
+
+.form-item {
+  position: relative;
+  margin: 5px 0;
+}
+
+.fas {
+  position: absolute;
+  right: 12rem;
+  top: 1.1rem;
+  cursor: pointer;
+}
+.btn{
+  border-radius: 20px;
+}
+.p-error{
+  color: rgb(190, 23, 23);
+}
+
+#currentUserName{
+  color: rgb(145, 26, 26);
+  font-weight: bold;
+  font-size: medium;
+}
+
+.title-align-center {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.admin-bgColor{
+  background-color: aliceblue;
+}
+
+.mt-30-percent{
+  margin-top: 30px;
+}
+
+.btn-accept {
+  margin-right: 5px;
+}

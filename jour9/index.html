@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title mt-2">Connectez-vous</h1>
+      <div class="row d-flex pg-connexion">
+        <div class="col-md-6">
+          <form class="form-inscription">
+            <h2 class="btitle">Bienvenue à LaPlateforme</h2>
+            <div class="form-item">
+              <input
+                type="text"
+                class="form-control form-control-lg w-75 mb-3"
+                placeholder="Email"
+                id="connex-email"
+              />
+            </div>
+            <div class="form-item">
+              <input
+                type="password"
+                class="form-control form-control-lg w-75 mb-3"
+                id="connex-password"
+                placeholder="password"
+              />
+              <i class="fas fa-eye" id="eye"></i>
+            </div>
+            <p id="error-connexion"></p>
+            <a href="#"> Mot de passe oublié </a>
+
+            <div class="d-grid mt-5">
+              <button
+                type="button"
+                class="btn btn-primary w-75 btn-lg"
+                id="identifierBtn"
+              >
+                S'identifier
+              </button>
+              <hr />
+              <a href="./inscription.html" class="border-dark btn w-75 btn-lg">
+                S'inscrire
+              </a>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="./asset/istockphoto-1227181130-612x612.jpeg"
+            alt=""
+            class="imag"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/form-eye.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

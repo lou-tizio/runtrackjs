@@ -2,17 +2,18 @@ document.getElementById("button").addEventListener("click", recupererExpressionF
 
 function recupererExpressionFavorite() {
   fetch("expression.txt")
-    .then(response => {
+    .then((response) => {
       if (!response.ok) {
         throw new Error("Erreur de récupération du fichier.");
       }
       return response.text();
     })
-    .then(data => {
-      const paragraphe = document.getElementById("expression");
-      paragraphe.textContent = data;
+    .then((contenu)=> {
+      const paragraphe = document.createElement('p')
+      paragraphe.textContent = contenu;
+      document.body.appendChild(paragraphe);
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Erreur:", error);
     });
 }
